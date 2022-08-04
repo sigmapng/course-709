@@ -1,9 +1,76 @@
-#text {
-    color: rgb(222, 204, 45);
-    margin-left: 200px;
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
 }
 
-#capy {
-    width: 600px;
-    height: 400px;
+html {
+    scroll-behavior: smooth;
+}
+
+
+.header {
+    background-image: url(img/capybara-with-lemons.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.text-frame {
+    position: absolute;
+    right: 5vw;
+    top: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    background: #fdf980a5;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-weight: 500;
+    color: rgb(58, 47, 47);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.about-capy-section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.facts-text {
+    list-style: none;
+}
+
+.facts-text li{
+    margin-bottom: 20px;
+    background-color: #fdf9808a;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #fdf880;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#git-hub-logo {
+    height: 57px;
+    width: 42px;
+    margin-right: 5px;
 }
